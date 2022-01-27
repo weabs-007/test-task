@@ -1,4 +1,7 @@
-to build the project run -> `docker-compose up`
+#Local running
+- Clone this project
+- Go to the root directory
+- Run command: `docker-compose up`
 
 # Frontend entry point
 - http://localhost:8081
