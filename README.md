@@ -3,17 +3,17 @@
 - Go to the root directory
 - Run command: `docker-compose up`
 
-# Frontend entry point
+## Frontend entry point
 - http://localhost:8081
 
-# Username/Password
+## Username/Password
 `username=user / password=111111` (ROLE_USER)<br> 
 `username=editor / password=111111` (ROLE_ALLOW_EDIT)
 
-# REST API Docs
+## REST API Docs
 - http://localhost:8080/swagger-ui
 
-# pgAdmin
+## pgAdmin
 - http://localhost:5050 <br>
 `email=pgadmin4@pgadmin.org`<br>
 `password=admin`<br>
