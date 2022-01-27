@@ -1,0 +1,93 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1643017435243-2
+      author: in3des (generated)
+      changes:
+        - loadData:
+            columns:
+              - column:
+                  header: id
+                  name: id
+                  type: NUMERIC
+              - column:
+                  header: name
+                  name: name
+                  type: STRING
+            commentLineStartsWith: '#'
+            encoding: UTF-8
+            file: data/roles.csv
+            quotchar: '"'
+            separator: ','
+            relativeToChangelogFile: true
+            tableName: roles
+  - changeSet:
+      id: 1643020638947-4
+      author: in3des (generated)
+      changes:
+        - loadData:
+            columns:
+              - column:
+                  header: id
+                  name: id
+                  type: NUMERIC
+              - column:
+                  header: password
+                  name: password
+                  type: STRING
+              - column:
+                  header: username
+                  name: username
+                  type: STRING
+            commentLineStartsWith: '#'
+            encoding: UTF-8
+            file: data/users.csv
+            quotchar: '"'
+            separator: ','
+            relativeToChangelogFile: true
+            tableName: users
+  - changeSet:
+      id: 1643020638947-6
+      author: in3des (generated)
+      changes:
+        - loadData:
+            columns:
+              - column:
+                  header: id
+                  name: id
+                  type: NUMERIC
+              - column:
+                  header: name
+                  name: name
+                  type: STRING
+              - column:
+                  header: photo
+                  name: photo
+                  type: STRING
+            commentLineStartsWith: '#'
+            encoding: UTF-8
+            file: data/cities.csv
+            quotchar: '"'
+            separator: ','
+            relativeToChangelogFile: true
+            tableName: cities
+  - changeSet:
+      id: 1643020638947-10
+      author: in3des (generated)
+      changes:
+        - loadData:
+            columns:
+              - column:
+                  header: user_id
+                  name: user_id
+                  type: NUMERIC
+              - column:
+                  header: role_id
+                  name: role_id
+                  type: NUMERIC
+            commentLineStartsWith: '#'
+            encoding: UTF-8
+            file: data/user_roles.csv
+            quotchar: '"'
+            separator: ','
+            relativeToChangelogFile: true
+            tableName: user_roles
