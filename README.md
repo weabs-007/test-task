@@ -1,4 +1,4 @@
-#Local running
+# Local running
 - Clone this project
 - Go to the root directory
 - Run command: `docker-compose up`
