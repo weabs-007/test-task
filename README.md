@@ -2,20 +2,20 @@
 - Clone this project
 - Go to the root directory
 - Run command: `docker-compose up`
-  <br>
+  <br><br>
 
 ## Frontend entry point
 - http://localhost:8081
-  <br>
+  <br><br>
 
 ## Username/Password
 `username=user / password=111111` (ROLE_USER)<br> 
 `username=editor / password=111111` (ROLE_ALLOW_EDIT)
-<br>
+<br><br>
 
 ## REST API Docs
 - http://localhost:8080/swagger-ui
-  <br>
+  <br><br>
 
 ## pgAdmin
 - http://localhost:5050 <br>
